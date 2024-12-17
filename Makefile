@@ -1,6 +1,6 @@
 .PHONY: run
 run: build
-	docker run --rm --network host amadev/smock
+	docker run --rm -d --network host amadev/smock
 
 .PHONY: build
 build:

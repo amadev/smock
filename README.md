@@ -1,6 +1,11 @@
 smock - configurable http-mock server
 
 ```
+make build run
+```
+
+
+```
 ~[0]$ curl -s localhost:8080/_cnf | jq .
 {
   "/bad": {
